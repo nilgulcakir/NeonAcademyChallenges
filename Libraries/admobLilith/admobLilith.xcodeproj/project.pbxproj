@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBC27A292B34443400327A9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC27A282B34443400327A9A /* AppDelegate.swift */; };
+		BBC27A2B2B34443400327A9A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC27A2A2B34443400327A9A /* SceneDelegate.swift */; };
+		BBC27A2D2B34443400327A9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC27A2C2B34443400327A9A /* ViewController.swift */; };
+		BBC27A322B34443500327A9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBC27A312B34443500327A9A /* Assets.xcassets */; };
+		BBC27A352B34443500327A9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBC27A332B34443500327A9A /* LaunchScreen.storyboard */; };
+		BBC27A3E2B34447200327A9A /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = BBC27A3D2B34447200327A9A /* GoogleMobileAds */; };
+		BBC27A412B346A3000327A9A /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = BBC27A402B346A3000327A9A /* SnapKit */; };
+		BBC27A432B346D5900327A9A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC27A422B346D5900327A9A /* SecondViewController.swift */; };
+		BBC27A452B34779700327A9A /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC27A442B34779700327A9A /* ThirdViewController.swift */; };
+		BBC27A472B347B8E00327A9A /* googlemobileadssdkios (1).zip in Resources */ = {isa = PBXBuildFile; fileRef = BBC27A462B347B8E00327A9A /* googlemobileadssdkios (1).zip */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BBC27A252B34443400327A9A /* admobLilith.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = admobLilith.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBC27A282B34443400327A9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BBC27A2A2B34443400327A9A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BBC27A2C2B34443400327A9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BBC27A312B34443500327A9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBC27A342B34443500327A9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BBC27A362B34443500327A9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBC27A422B346D5900327A9A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		BBC27A442B34779700327A9A /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		BBC27A462B347B8E00327A9A /* googlemobileadssdkios (1).zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "googlemobileadssdkios (1).zip"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBC27A222B34443400327A9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC27A3E2B34447200327A9A /* GoogleMobileAds in Frameworks */,
+				BBC27A412B346A3000327A9A /* SnapKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBC27A1C2B34443400327A9A = {
+			isa = PBXGroup;
+			children = (
+				BBC27A462B347B8E00327A9A /* googlemobileadssdkios (1).zip */,
+				BBC27A272B34443400327A9A /* admobLilith */,
+				BBC27A262B34443400327A9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBC27A262B34443400327A9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBC27A252B34443400327A9A /* admobLilith.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBC27A272B34443400327A9A /* admobLilith */ = {
+			isa = PBXGroup;
+			children = (
+				BBC27A282B34443400327A9A /* AppDelegate.swift */,
+				BBC27A2A2B34443400327A9A /* SceneDelegate.swift */,
+				BBC27A2C2B34443400327A9A /* ViewController.swift */,
+				BBC27A422B346D5900327A9A /* SecondViewController.swift */,
+				BBC27A442B34779700327A9A /* ThirdViewController.swift */,
+				BBC27A312B34443500327A9A /* Assets.xcassets */,
+				BBC27A332B34443500327A9A /* LaunchScreen.storyboard */,
+				BBC27A362B34443500327A9A /* Info.plist */,
+			);
+			path = admobLilith;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBC27A242B34443400327A9A /* admobLilith */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBC27A392B34443500327A9A /* Build configuration list for PBXNativeTarget "admobLilith" */;
+			buildPhases = (
+				BBC27A212B34443400327A9A /* Sources */,
+				BBC27A222B34443400327A9A /* Frameworks */,
+				BBC27A232B34443400327A9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = admobLilith;
+			packageProductDependencies = (
+				BBC27A3D2B34447200327A9A /* GoogleMobileAds */,
+				BBC27A402B346A3000327A9A /* SnapKit */,
+			);
+			productName = admobLilith;
+			productReference = BBC27A252B34443400327A9A /* admobLilith.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBC27A1D2B34443400327A9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BBC27A242B34443400327A9A = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BBC27A202B34443400327A9A /* Build configuration list for PBXProject "admobLilith" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBC27A1C2B34443400327A9A;
+			packageReferences = (
+				BBC27A3C2B34447200327A9A /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+				BBC27A3F2B346A3000327A9A /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
+			productRefGroup = BBC27A262B34443400327A9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBC27A242B34443400327A9A /* admobLilith */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBC27A232B34443400327A9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC27A352B34443500327A9A /* LaunchScreen.storyboard in Resources */,
+				BBC27A322B34443500327A9A /* Assets.xcassets in Resources */,
+				BBC27A472B347B8E00327A9A /* googlemobileadssdkios (1).zip in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBC27A212B34443400327A9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBC27A432B346D5900327A9A /* SecondViewController.swift in Sources */,
+				BBC27A2D2B34443400327A9A /* ViewController.swift in Sources */,
+				BBC27A452B34779700327A9A /* ThirdViewController.swift in Sources */,
+				BBC27A292B34443400327A9A /* AppDelegate.swift in Sources */,
+				BBC27A2B2B34443400327A9A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BBC27A332B34443500327A9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBC27A342B34443500327A9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBC27A372B34443500327A9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBC27A382B34443500327A9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBC27A3A2B34443500327A9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KJFACHMZVM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = admobLilith/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nilgulcakir.admobLilith;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBC27A3B2B34443500327A9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KJFACHMZVM;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = admobLilith/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nilgulcakir.admobLilith;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBC27A202B34443400327A9A /* Build configuration list for PBXProject "admobLilith" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBC27A372B34443500327A9A /* Debug */,
+				BBC27A382B34443500327A9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBC27A392B34443500327A9A /* Build configuration list for PBXNativeTarget "admobLilith" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBC27A3A2B34443500327A9A /* Debug */,
+				BBC27A3B2B34443500327A9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BBC27A3C2B34447200327A9A /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+		BBC27A3F2B346A3000327A9A /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BBC27A3D2B34447200327A9A /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BBC27A3C2B34447200327A9A /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+		BBC27A402B346A3000327A9A /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BBC27A3F2B346A3000327A9A /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BBC27A1D2B34443400327A9A /* Project object */;
+}
